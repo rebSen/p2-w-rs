@@ -28,9 +28,9 @@ render() {
     if(this.state.movies.length > 0){
         console.log("hello", this.state.movies)
         return (
-        <div className="movycard">
+        <div>
             {this.state.movies.map((item,index) => {
-              if (index < 20 ) {
+              if (index < 1 ) {
                 return <Cardo
                        key={index}
                        title={item.title}
