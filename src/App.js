@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 import { Container, Row, Col, } from 'reactstrap';
+//import ContactFormReb from './ContactFormReb'
+import Search from './Search'
 import Cardos from './Cardos'
 
 
-
 class App extends Component {
-
-  
   render() {
-  
     return (
       <Container className="App">
         <Row>
